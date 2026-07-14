@@ -87,10 +87,9 @@ class ProductController extends Controller
     }
 
     public function checkout(){
-        
+        return view('checkout');
     }
-    
-    public function order(){
 
+    public function order(){
     }
 }
