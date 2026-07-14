@@ -85,4 +85,12 @@ class ProductController extends Controller
             session()->flash('success', 'Product removed successfully');
         }
     }
+
+    public function checkout(){
+        
+    }
+    
+    public function order(){
+
+    }
 }
